@@ -65,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             Text(
-              '名前:関 琢磨',
+              'ニックネーム:そーだ',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             Text(
@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Link(
               // 開きたいWebページのURLを指定
-              uri: Uri.parse('https://twitter.com'),
+              uri: Uri.parse('twitter://user?screen_name=soda_saida'),
               // targetについては後述
               target: LinkTarget.blank,
               builder: (BuildContext ctx, FollowLink? openLink) {
